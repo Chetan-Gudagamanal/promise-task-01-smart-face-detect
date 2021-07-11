@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(34, 27, 46);
+    padding: 1.6em;
+}
+
+.title{
+    color: antiquewhite;
+}
+
+.info{
+    color: rgb(217, 231, 165);
+    text-align: center;
+    font-size: 0.7em;
+}
+
+section{
+    background-image: linear-gradient(rgb(150, 150, 243),grey);
+    min-height: 60vh;
+}
+
+.image_section{
+    display: flex;
+    justify-content: center;
+}
+
+.image_area{
+    position: absolute;
+    margin: auto;
+}
+.bounding-box{
+    position:absolute;
+    box-shadow:0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+   
+}
