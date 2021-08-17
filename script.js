@@ -3,7 +3,7 @@
 //API key is not disclosed here, It has been stored seperatly for security
 const handleApiCall=(url)=>{
     const getData=async (url)=>{
-        const apiUrl="https://smart-face-detect-server.herokuapp.com/image"
+        const apiUrl="https://face-detection-backend-server.herokuapp.com/image"
         let rawData=await fetch(apiUrl,{
             method:"POST",
             headers: {
